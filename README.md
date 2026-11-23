@@ -43,12 +43,12 @@ Ces chiffres alimentent l'[audit de rentabilité gratuit de Point V1](https://po
 | `donnees/prix_par_famille_zone_euro.csv` | Prix médian par famille, boutiques de la zone euro seulement |
 | `donnees/politiques_retour_par_langue.csv` | Délai médian de retour, part à 14 jours ou moins, part qui dit qui paie le port, par langue de la politique |
 | `donnees/politiques_retour_synthese.csv` | Synthèse du relevé des retours, toutes langues confondues |
-| `donnees/mesures.json` | Les mêmes agrégats avec leurs règles d'inclusion, au format lu par le moteur de Point V1 |
+| `donnees/mesures.json` | Les mêmes agrégats avec leurs règles d'inclusion, au format lu par le moteur de Point V1 ([dépôt GitHub](https://github.com/hik9n/observatoire-pointv1)) |
 
 ## Méthode, en bref
 
 - Les prix viennent des catalogues publics des boutiques (`/products.json`). Les devises hors zone euro sont converties au taux de référence de la BCE, à la date indiquée. Les devises dont le niveau de prix ne se compare pas à la zone euro sont exclues.
-- Une famille n'entre que si elle compte au moins 10 boutiques et si l'intervalle de confiance de sa médiane est plus étroit que 75 % de cette médiane.
+- Dans `prix_par_famille.csv`, une famille n'entre que si elle compte au moins 10 boutiques et si l'intervalle de confiance de sa médiane est plus étroit que 75 % de cette médiane. Le fichier zone euro donne toutes les familles relevées : à lire avec `largeur_relative_ic`, une valeur au-delà de 0,75 signale une médiane peu précise.
 - Les politiques de retour sont lues à `/policies/refund-policy`, un chemin que Shopify garantit et que son robots.txt autorise. Une requête par boutique. Les champs sont extraits par règles, sans modèle de langue.
 - **Limite** : ce relevé mesure ce que les boutiques écrivent, pas ce que leurs clients font. Il ne donne pas le taux de retour réel.
 - Aucune boutique n'est nommée. Le jeu ne contient aucune donnée personnelle.
