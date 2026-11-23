@@ -7,6 +7,7 @@ authors:
     given-names: Julian
 version: "2026.11.11"
 date-released: "2026-11-11"
+doi: 10.5281/zenodo.24462949
 license: CC-BY-4.0
 url: "https://pointv1.online/guides/observatoire.html"
 repository-code: "https://github.com/hik9n/observatoire-pointv1"

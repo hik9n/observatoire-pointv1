@@ -28,6 +28,8 @@ configs:
 
 # Observatoire Point V1 : prix e-commerce et politiques de retour
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24462949.svg)](https://doi.org/10.5281/zenodo.24462949)
+
 Ce jeu de données agrège les relevés publics de l'[Observatoire Point V1](https://pointv1.online/guides/observatoire.html). Il porte sur deux sujets : les prix de vente pratiqués par les boutiques Shopify, par famille de produits, et les politiques de retour qu'elles publient.
 
 - **Prix** : 10 733 boutiques et 3 890 482 produits relevés. Le calcul en retient 9 151 boutiques. Mesure du 2026-11-11.
@@ -59,7 +61,7 @@ Aggregated, public figures from the Point V1 Observatory: median selling prices 
 
 ## Citer
 
-Bichard, J. (2026). *Observatoire Point V1 : prix e-commerce et politiques de retour* (version 2026.11.11). Point V1. https://pointv1.online/guides/observatoire.html
+Bichard, J. (2026). *Observatoire Point V1 : prix e-commerce et politiques de retour* (version 2026.11.11). Point V1. https://doi.org/10.5281/zenodo.24462949
 
 ## Licence
 
