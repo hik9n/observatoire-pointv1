@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "Si vous réutilisez ces données, citez-les ainsi."
+title: "Observatoire Point V1 : prix e-commerce et politiques de retour"
+type: dataset
+authors:
+  - family-names: Bichard
+    given-names: Julian
+version: "2026.11.11"
+date-released: "2026-11-11"
+license: CC-BY-4.0
+url: "https://pointv1.online/guides/observatoire.html"
+repository-code: "https://github.com/hik9n/observatoire-pointv1"
+keywords: [e-commerce, shopify, prix, politique de retour, France]

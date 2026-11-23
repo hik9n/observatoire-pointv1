@@ -1,0 +1,829 @@
+{
+ "mesure_le": "2026-11-11",
+ "regle": "Une famille n'entre ici que si elle porte au moins 10 boutiques ET un intervalle de confiance à 95 % plus étroit que 75% de sa médiane. Le second critère est le vrai : compter les boutiques revient à donner un poids de zéro à ce qui passe sous la barre, alors que ce qui compte est la précision de l'estimation. Une valeur par boutique, jamais une par catégorie.",
+ "boutiques_mesurees": 9151,
+ "univers": "elargi",
+ "devises_incluses": [
+  "EUR",
+  "USD",
+  "GBP",
+  "CHF",
+  "CAD",
+  "AUD",
+  "JPY"
+ ],
+ "taux_change": {
+  "base": "EUR",
+  "releve_le": "2026-11-10",
+  "source": "Banque centrale européenne, taux de référence quotidiens",
+  "taux": {
+   "USD": 1.1214,
+   "GBP": 0.83545,
+   "CHF": 0.9203,
+   "CAD": 1.5852,
+   "AUD": 1.6244,
+   "JPY": 177.38
+  }
+ },
+ "regle_univers": "Un prix converti porte la date de son taux. Les devises dont le niveau de prix ne se compare pas à la zone euro (INR, PKR, BRL…) restent hors de l'univers élargi : les mélanger donnerait une médiane juste arithmétiquement et fausse économiquement.",
+ "collecte": {
+  "boutiques_relevees": 10733,
+  "produits_releves": 3890482
+ },
+ "devise": "EUR",
+ "familles": {
+  "auto_moto": {
+   "prix_median": 44.94,
+   "prix_p25": 19.99,
+   "prix_p75": 180.0,
+   "ic95_median": [
+    37.45,
+    63.15
+   ],
+   "largeur_relative_ic": 0.572,
+   "prediction95": [
+    2.58,
+    1686.22
+   ],
+   "dispersion_log": 1.65,
+   "nb_boutiques": 229,
+   "nb_mesures": 584,
+   "devise": "EUR",
+   "univers": "elargi",
+   "devises_incluses": [
+    "EUR",
+    "USD",
+    "GBP",
+    "CHF",
+    "CAD",
+    "AUD",
+    "JPY"
+   ],
+   "taux_releve_le": "2026-11-10",
+   "provisoire": false
+  },
+  "high_tech_gaming": {
+   "prix_median": 33.23,
+   "prix_p25": 20.96,
+   "prix_p75": 91.42,
+   "ic95_median": [
+    29.99,
+    39.0
+   ],
+   "largeur_relative_ic": 0.271,
+   "prediction95": [
+    3.0,
+    783.36
+   ],
+   "dispersion_log": 1.418,
+   "nb_boutiques": 560,
+   "nb_mesures": 1476,
+   "devise": "EUR",
+   "univers": "elargi",
+   "devises_incluses": [
+    "EUR",
+    "USD",
+    "GBP",
+    "CHF",
+    "CAD",
+    "AUD",
+    "JPY"
+   ],
+   "taux_releve_le": "2026-11-10",
+   "provisoire": false
+  },
+  "mode": {
+   "prix_median": 39.99,
+   "prix_p25": 26.74,
+   "prix_p75": 62.42,
+   "ic95_median": [
+    38.9,
+    41.24
+   ],
+   "largeur_relative_ic": 0.059,
+   "prediction95": [
+    7.23,
+    267.65
+   ],
+   "dispersion_log": 0.921,
+   "nb_boutiques": 2193,
+   "nb_mesures": 14783,
+   "devise": "EUR",
+   "univers": "elargi",
+   "devises_incluses": [
+    "EUR",
+    "USD",
+    "GBP",
+    "CHF",
+    "CAD",
+    "AUD",
+    "JPY"
+   ],
+   "taux_releve_le": "2026-11-10",
+   "provisoire": false
+  },
+  "bijoux": {
+   "prix_median": 32.49,
+   "prix_p25": 17.83,
+   "prix_p75": 75.4,
+   "ic95_median": [
+    29.95,
+    35.0
+   ],
+   "largeur_relative_ic": 0.155,
+   "prediction95": [
+    2.56,
+    654.71
+   ],
+   "dispersion_log": 1.414,
+   "nb_boutiques": 851,
+   "nb_mesures": 2802,
+   "devise": "EUR",
+   "univers": "elargi",
+   "devises_incluses": [
+    "EUR",
+    "USD",
+    "GBP",
+    "CHF",
+    "CAD",
+    "AUD",
+    "JPY"
+   ],
+   "taux_releve_le": "2026-11-10",
+   "provisoire": false
+  },
+  "art_papeterie": {
+   "prix_median": 19.15,
+   "prix_p25": 8.92,
+   "prix_p75": 35.67,
+   "ic95_median": [
+    17.83,
+    20.99
+   ],
+   "largeur_relative_ic": 0.165,
+   "prediction95": [
+    1.44,
+    294.23
+   ],
+   "dispersion_log": 1.356,
+   "nb_boutiques": 882,
+   "nb_mesures": 1671,
+   "devise": "EUR",
+   "univers": "elargi",
+   "devises_incluses": [
+    "EUR",
+    "USD",
+    "GBP",
+    "CHF",
+    "CAD",
+    "AUD",
+    "JPY"
+   ],
+   "taux_releve_le": "2026-11-10",
+   "provisoire": false
+  },
+  "beaute": {
+   "prix_median": 22.22,
+   "prix_p25": 14.21,
+   "prix_p75": 40.0,
+   "ic95_median": [
+    20.2,
+    24.9
+   ],
+   "largeur_relative_ic": 0.212,
+   "prediction95": [
+    3.25,
+    179.56
+   ],
+   "dispersion_log": 1.023,
+   "nb_boutiques": 600,
+   "nb_mesures": 1739,
+   "devise": "EUR",
+   "univers": "elargi",
+   "devises_incluses": [
+    "EUR",
+    "USD",
+    "GBP",
+    "CHF",
+    "CAD",
+    "AUD",
+    "JPY"
+   ],
+   "taux_releve_le": "2026-11-10",
+   "provisoire": false
+  },
+  "bricolage": {
+   "prix_median": 21.98,
+   "prix_p25": 11.24,
+   "prix_p75": 47.77,
+   "ic95_median": [
+    18.61,
+    29.33
+   ],
+   "largeur_relative_ic": 0.488,
+   "prediction95": [
+    1.65,
+    384.02
+   ],
+   "dispersion_log": 1.388,
+   "nb_boutiques": 247,
+   "nb_mesures": 443,
+   "devise": "EUR",
+   "univers": "elargi",
+   "devises_incluses": [
+    "EUR",
+    "USD",
+    "GBP",
+    "CHF",
+    "CAD",
+    "AUD",
+    "JPY"
+   ],
+   "taux_releve_le": "2026-11-10",
+   "provisoire": false
+  },
+  "animaux": {
+   "prix_median": 26.27,
+   "prix_p25": 16.4,
+   "prix_p75": 44.58,
+   "ic95_median": [
+    22.45,
+    29.9
+   ],
+   "largeur_relative_ic": 0.284,
+   "prediction95": [
+    4.09,
+    201.58
+   ],
+   "dispersion_log": 0.992,
+   "nb_boutiques": 211,
+   "nb_mesures": 565,
+   "devise": "EUR",
+   "univers": "elargi",
+   "devises_incluses": [
+    "EUR",
+    "USD",
+    "GBP",
+    "CHF",
+    "CAD",
+    "AUD",
+    "JPY"
+   ],
+   "taux_releve_le": "2026-11-10",
+   "provisoire": false
+  },
+  "maison": {
+   "prix_median": 37.01,
+   "prix_p25": 19.98,
+   "prix_p75": 88.86,
+   "ic95_median": [
+    34.0,
+    40.13
+   ],
+   "largeur_relative_ic": 0.166,
+   "prediction95": [
+    3.07,
+    720.83
+   ],
+   "dispersion_log": 1.391,
+   "nb_boutiques": 883,
+   "nb_mesures": 2493,
+   "devise": "EUR",
+   "univers": "elargi",
+   "devises_incluses": [
+    "EUR",
+    "USD",
+    "GBP",
+    "CHF",
+    "CAD",
+    "AUD",
+    "JPY"
+   ],
+   "taux_releve_le": "2026-11-10",
+   "provisoire": false
+  },
+  "cheveux": {
+   "prix_median": 21.55,
+   "prix_p25": 12.88,
+   "prix_p75": 40.0,
+   "ic95_median": [
+    19.57,
+    25.0
+   ],
+   "largeur_relative_ic": 0.252,
+   "prediction95": [
+    2.6,
+    259.13
+   ],
+   "dispersion_log": 1.172,
+   "nb_boutiques": 295,
+   "nb_mesures": 742,
+   "devise": "EUR",
+   "univers": "elargi",
+   "devises_incluses": [
+    "EUR",
+    "USD",
+    "GBP",
+    "CHF",
+    "CAD",
+    "AUD",
+    "JPY"
+   ],
+   "taux_releve_le": "2026-11-10",
+   "provisoire": false
+  },
+  "alimentaire_boissons": {
+   "prix_median": 19.23,
+   "prix_p25": 9.8,
+   "prix_p75": 37.9,
+   "ic95_median": [
+    17.83,
+    21.49
+   ],
+   "largeur_relative_ic": 0.19,
+   "prediction95": [
+    1.66,
+    304.41
+   ],
+   "dispersion_log": 1.328,
+   "nb_boutiques": 525,
+   "nb_mesures": 1457,
+   "devise": "EUR",
+   "univers": "elargi",
+   "devises_incluses": [
+    "EUR",
+    "USD",
+    "GBP",
+    "CHF",
+    "CAD",
+    "AUD",
+    "JPY"
+   ],
+   "taux_releve_le": "2026-11-10",
+   "provisoire": false
+  },
+  "enfant": {
+   "prix_median": 25.91,
+   "prix_p25": 16.57,
+   "prix_p75": 44.59,
+   "ic95_median": [
+    23.62,
+    27.98
+   ],
+   "largeur_relative_ic": 0.168,
+   "prediction95": [
+    3.68,
+    219.61
+   ],
+   "dispersion_log": 1.042,
+   "nb_boutiques": 567,
+   "nb_mesures": 1232,
+   "devise": "EUR",
+   "univers": "elargi",
+   "devises_incluses": [
+    "EUR",
+    "USD",
+    "GBP",
+    "CHF",
+    "CAD",
+    "AUD",
+    "JPY"
+   ],
+   "taux_releve_le": "2026-11-10",
+   "provisoire": false
+  },
+  "maroquinerie": {
+   "prix_median": 41.35,
+   "prix_p25": 22.58,
+   "prix_p75": 78.95,
+   "ic95_median": [
+    39.68,
+    44.59
+   ],
+   "largeur_relative_ic": 0.119,
+   "prediction95": [
+    4.39,
+    454.91
+   ],
+   "dispersion_log": 1.183,
+   "nb_boutiques": 890,
+   "nb_mesures": 2143,
+   "devise": "EUR",
+   "univers": "elargi",
+   "devises_incluses": [
+    "EUR",
+    "USD",
+    "GBP",
+    "CHF",
+    "CAD",
+    "AUD",
+    "JPY"
+   ],
+   "taux_releve_le": "2026-11-10",
+   "provisoire": false
+  },
+  "musique": {
+   "prix_median": 35.67,
+   "prix_p25": 17.36,
+   "prix_p75": 115.21,
+   "ic95_median": [
+    26.95,
+    48.63
+   ],
+   "largeur_relative_ic": 0.608,
+   "prediction95": [
+    2.42,
+    804.01
+   ],
+   "dispersion_log": 1.477,
+   "nb_boutiques": 165,
+   "nb_mesures": 347,
+   "devise": "EUR",
+   "univers": "elargi",
+   "devises_incluses": [
+    "EUR",
+    "USD",
+    "GBP",
+    "CHF",
+    "CAD",
+    "AUD",
+    "JPY"
+   ],
+   "taux_releve_le": "2026-11-10",
+   "provisoire": false
+  },
+  "sport_plein_air": {
+   "prix_median": 49.99,
+   "prix_p25": 25.72,
+   "prix_p75": 146.69,
+   "ic95_median": [
+    44.0,
+    60.0
+   ],
+   "largeur_relative_ic": 0.32,
+   "prediction95": [
+    2.95,
+    1497.61
+   ],
+   "dispersion_log": 1.587,
+   "nb_boutiques": 379,
+   "nb_mesures": 972,
+   "devise": "EUR",
+   "univers": "elargi",
+   "devises_incluses": [
+    "EUR",
+    "USD",
+    "GBP",
+    "CHF",
+    "CAD",
+    "AUD",
+    "JPY"
+   ],
+   "taux_releve_le": "2026-11-10",
+   "provisoire": false
+  },
+  "chaussures": {
+   "prix_median": 60.24,
+   "prix_p25": 42.45,
+   "prix_p75": 142.68,
+   "ic95_median": [
+    57.95,
+    70.22
+   ],
+   "largeur_relative_ic": 0.204,
+   "prediction95": [
+    12.49,
+    470.32
+   ],
+   "dispersion_log": 0.925,
+   "nb_boutiques": 557,
+   "nb_mesures": 1838,
+   "devise": "EUR",
+   "univers": "elargi",
+   "devises_incluses": [
+    "EUR",
+    "USD",
+    "GBP",
+    "CHF",
+    "CAD",
+    "AUD",
+    "JPY"
+   ],
+   "taux_releve_le": "2026-11-10",
+   "provisoire": false
+  },
+  "cuisine": {
+   "prix_median": 22.27,
+   "prix_p25": 14.99,
+   "prix_p75": 38.53,
+   "ic95_median": [
+    20.95,
+    23.58
+   ],
+   "largeur_relative_ic": 0.118,
+   "prediction95": [
+    3.57,
+    190.87
+   ],
+   "dispersion_log": 1.014,
+   "nb_boutiques": 650,
+   "nb_mesures": 1466,
+   "devise": "EUR",
+   "univers": "elargi",
+   "devises_incluses": [
+    "EUR",
+    "USD",
+    "GBP",
+    "CHF",
+    "CAD",
+    "AUD",
+    "JPY"
+   ],
+   "taux_releve_le": "2026-11-10",
+   "provisoire": false
+  },
+  "bien_etre": {
+   "prix_median": 29.85,
+   "prix_p25": 13.9,
+   "prix_p75": 61.04,
+   "ic95_median": [
+    23.19,
+    34.12
+   ],
+   "largeur_relative_ic": 0.366,
+   "prediction95": [
+    1.72,
+    590.08
+   ],
+   "dispersion_log": 1.484,
+   "nb_boutiques": 140,
+   "nb_mesures": 210,
+   "devise": "EUR",
+   "univers": "elargi",
+   "devises_incluses": [
+    "EUR",
+    "USD",
+    "GBP",
+    "CHF",
+    "CAD",
+    "AUD",
+    "JPY"
+   ],
+   "taux_releve_le": "2026-11-10",
+   "provisoire": false
+  },
+  "sante": {
+   "prix_median": 22.25,
+   "prix_p25": 15.14,
+   "prix_p75": 30.25,
+   "ic95_median": [
+    19.21,
+    24.49
+   ],
+   "largeur_relative_ic": 0.237,
+   "prediction95": [
+    5.64,
+    85.39
+   ],
+   "dispersion_log": 0.691,
+   "nb_boutiques": 163,
+   "nb_mesures": 267,
+   "devise": "EUR",
+   "univers": "elargi",
+   "devises_incluses": [
+    "EUR",
+    "USD",
+    "GBP",
+    "CHF",
+    "CAD",
+    "AUD",
+    "JPY"
+   ],
+   "taux_releve_le": "2026-11-10",
+   "provisoire": false
+  },
+  "mariage": {
+   "prix_median": 49.95,
+   "prix_p25": 19.84,
+   "prix_p75": 80.43,
+   "ic95_median": [
+    34.98,
+    60.0
+   ],
+   "largeur_relative_ic": 0.501,
+   "prediction95": [
+    1.45,
+    1358.96
+   ],
+   "dispersion_log": 1.73,
+   "nb_boutiques": 53,
+   "nb_mesures": 96,
+   "devise": "EUR",
+   "univers": "elargi",
+   "devises_incluses": [
+    "EUR",
+    "USD",
+    "GBP",
+    "CHF",
+    "CAD",
+    "AUD",
+    "JPY"
+   ],
+   "taux_releve_le": "2026-11-10",
+   "provisoire": false
+  }
+ },
+ "familles_zone_euro": {
+  "animaux": {
+   "prix_median": 32.7,
+   "nb_boutiques": 74,
+   "largeur_relative_ic": 0.416
+  },
+  "maison": {
+   "prix_median": 42.45,
+   "nb_boutiques": 335,
+   "largeur_relative_ic": 0.39
+  },
+  "mode": {
+   "prix_median": 48.0,
+   "nb_boutiques": 987,
+   "largeur_relative_ic": 0.082
+  },
+  "cheveux": {
+   "prix_median": 20.0,
+   "nb_boutiques": 145,
+   "largeur_relative_ic": 0.38
+  },
+  "alimentaire_boissons": {
+   "prix_median": 18.95,
+   "nb_boutiques": 184,
+   "largeur_relative_ic": 0.472
+  },
+  "enfant": {
+   "prix_median": 29.0,
+   "nb_boutiques": 257,
+   "largeur_relative_ic": 0.209
+  },
+  "beaute": {
+   "prix_median": 22.0,
+   "nb_boutiques": 347,
+   "largeur_relative_ic": 0.212
+  },
+  "art_papeterie": {
+   "prix_median": 22.0,
+   "nb_boutiques": 273,
+   "largeur_relative_ic": 0.225
+  },
+  "sport_plein_air": {
+   "prix_median": 42.0,
+   "nb_boutiques": 153,
+   "largeur_relative_ic": 0.324
+  },
+  "maroquinerie": {
+   "prix_median": 49.7,
+   "nb_boutiques": 437,
+   "largeur_relative_ic": 0.184
+  },
+  "bijoux": {
+   "prix_median": 32.5,
+   "nb_boutiques": 427,
+   "largeur_relative_ic": 0.155
+  },
+  "chaussures": {
+   "prix_median": 60.12,
+   "nb_boutiques": 332,
+   "largeur_relative_ic": 0.363
+  },
+  "musique": {
+   "prix_median": 37.4,
+   "nb_boutiques": 58,
+   "largeur_relative_ic": 0.802
+  },
+  "cuisine": {
+   "prix_median": 23.38,
+   "nb_boutiques": 240,
+   "largeur_relative_ic": 0.171
+  },
+  "eco": {
+   "prix_median": 24.52,
+   "nb_boutiques": 20,
+   "largeur_relative_ic": 2.447
+  },
+  "sante": {
+   "prix_median": 24.16,
+   "nb_boutiques": 75,
+   "largeur_relative_ic": 0.29
+  },
+  "high_tech_gaming": {
+   "prix_median": 29.99,
+   "nb_boutiques": 225,
+   "largeur_relative_ic": 0.217
+  },
+  "bien_etre": {
+   "prix_median": 29.95,
+   "nb_boutiques": 58,
+   "largeur_relative_ic": 0.699
+  },
+  "mariage": {
+   "prix_median": 54.95,
+   "nb_boutiques": 31,
+   "largeur_relative_ic": 0.346
+  },
+  "auto_moto": {
+   "prix_median": 27.39,
+   "nb_boutiques": 68,
+   "largeur_relative_ic": 0.69
+  },
+  "bricolage": {
+   "prix_median": 29.99,
+   "nb_boutiques": 71,
+   "largeur_relative_ic": 0.749
+  }
+ },
+ "retours": {
+  "source": "Observatoire Point V1 — politiques de retour publiées",
+  "methode": "Une requête par boutique sur /policies/refund-policy, un chemin que Shopify garantit et que son robots.txt autorise. Les champs sont extraits à la règle, jamais par un modèle de langue, et chaque fenêtre retenue dit quelle phrase l'a fournie.",
+  "limite": "Ce relevé mesure ce que les boutiques ÉCRIVENT, pas ce que leurs clients font. Il ne dit rien du taux de retour réel, qui ne s'observe pas de l'extérieur.",
+  "mesure_le": "2026-09-18",
+  "boutiques_interrogees": 7421,
+  "lisibles": 5476,
+  "sans_politique": 1414,
+  "part_sans_politique": 19,
+  "langues_lues": [
+   "fr",
+   "en",
+   "de",
+   "it",
+   "nl",
+   "es"
+  ],
+  "politiques_retenues": 4769,
+  "fenetre_n": 2986,
+  "fenetre_mediane": 30,
+  "part_14_ou_moins": 46,
+  "part_30_ou_plus": 51,
+  "port_attribue": 909,
+  "part_port_attribue": 19,
+  "part_port_tait": 81,
+  "part_client_quand_attribue": 87,
+  "part_etat_exige": 53,
+  "part_mention_legale": 24,
+  "part_restockage": 8,
+  "par_langue": {
+   "fr": {
+    "politiques": 285,
+    "fenetre_n": 188,
+    "fenetre_mediane": 14,
+    "part_14_ou_moins": 61,
+    "port_attribue": 180,
+    "part_port_attribue": 63,
+    "part_client_quand_attribue": 95
+   },
+   "en": {
+    "politiques": 3730,
+    "fenetre_n": 2256,
+    "fenetre_mediane": 30,
+    "part_14_ou_moins": 37,
+    "port_attribue": 593,
+    "part_port_attribue": 16,
+    "part_client_quand_attribue": 82
+   },
+   "de": {
+    "politiques": 341,
+    "fenetre_n": 289,
+    "fenetre_mediane": 14,
+    "part_14_ou_moins": 82,
+    "port_attribue": 34,
+    "part_port_attribue": 10,
+    "part_client_quand_attribue": 94
+   },
+   "it": {
+    "politiques": 100,
+    "fenetre_n": 75,
+    "fenetre_mediane": 14,
+    "part_14_ou_moins": 75,
+    "port_attribue": 52,
+    "part_port_attribue": 52,
+    "part_client_quand_attribue": 98
+   },
+   "nl": {
+    "politiques": 132,
+    "fenetre_n": 95,
+    "fenetre_mediane": 14,
+    "part_14_ou_moins": 72,
+    "port_attribue": 30,
+    "part_port_attribue": 23,
+    "part_client_quand_attribue": 90
+   },
+   "es": {
+    "politiques": 181,
+    "fenetre_n": 83,
+    "fenetre_mediane": 14,
+    "part_14_ou_moins": 71,
+    "port_attribue": 20,
+    "part_port_attribue": 11,
+    "part_client_quand_attribue": 90
+   }
+  }
+ }
+}

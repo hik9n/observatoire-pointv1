@@ -1,0 +1,8 @@
+{
+  "title": "Observatoire Point V1: e-commerce prix et retours",
+  "subtitle": "Prix médians Shopify par famille et politiques de retour publiées",
+  "id": "julianbichard/observatoire-pointv1",
+  "licenses": [{"name": "CC-BY-4.0"}],
+  "keywords": ["e-commerce", "business", "retail and shopping", "europe"],
+  "description": "Voir README.md. Source et méthode : https://pointv1.online/guides/observatoire.html"
+}

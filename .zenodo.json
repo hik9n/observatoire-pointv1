@@ -1,0 +1,13 @@
+{
+  "title": "Observatoire Point V1 : prix e-commerce et politiques de retour",
+  "upload_type": "dataset",
+  "description": "<p>Agrégats publics de l'Observatoire Point V1 : prix de vente médians des boutiques Shopify par famille de produits (10 733 boutiques, 3 890 482 produits relevés, mesure du 2026-11-11) et politiques de retour publiées (7 421 boutiques interrogées, 5 476 politiques lisibles, mesure du 2026-09-18). Aucune boutique n'est nommée. Méthode : <a href=\"https://pointv1.online/guides/observatoire.html\">https://pointv1.online/guides/observatoire.html</a></p>",
+  "creators": [{"name": "Bichard, Julian"}],
+  "license": "cc-by-4.0",
+  "language": "fra",
+  "keywords": ["e-commerce", "shopify", "prix", "politique de retour", "return policy", "France", "Europe"],
+  "related_identifiers": [
+    {"identifier": "https://pointv1.online/guides/observatoire.html", "relation": "isDocumentedBy", "resource_type": "publication-other"},
+    {"identifier": "https://pointv1.online/guides/politique-de-retour-ecommerce.html", "relation": "isDocumentedBy", "resource_type": "publication-other"}
+  ]
+}
